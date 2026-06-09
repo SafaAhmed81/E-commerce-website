@@ -1,0 +1,57 @@
+.accessories_page {
+  padding-bottom: 80px;
+}
+
+.acc_hero {
+  background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+  padding: 80px 0;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.acc_hero h1 {
+  font-size: 52px;
+  font-weight: 800;
+  color: var(--color_heading);
+  margin-bottom: 12px;
+}
+.acc_hero p {
+  font-size: 17px;
+  color: var(--p_color);
+}
+
+/* Tabs */
+.acc_tabs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.acc_tab_btn {
+  padding: 9px 24px;
+  border-radius: 30px;
+  border: 1.5px solid var(--border_color);
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--p_color);
+  transition: 0.2s;
+  font-family: "Inter", sans-serif;
+}
+.acc_tab_btn:hover,
+.acc_tab_btn.active {
+  background: var(--main_color);
+  border-color: var(--main_color);
+  color: #fff;
+}
+
+/* Products grid */
+.acc_products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.acc_top_slide {
+  margin-bottom: 24px;
+}
